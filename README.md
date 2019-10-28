@@ -10,10 +10,14 @@ Eagleroach is a **self-hosted software** and it helps you to
 - Keep your PDFs private or public or share only with selected users.
 - Last but not least - Fine-grained user experience.
 
-#### Ideal for
+### Social accounts
+- [Mastodon](https://fosstodon.org/@eagleroach)
+- [Twitter](https://twitter.com/eagleroach)
+
+### Ideal for
 - Yet to add..
 
-#### Technology stack
+### Technology stack
 - HTML5
 - CSS3
 - Javascript with jQuery
@@ -21,9 +25,9 @@ Eagleroach is a **self-hosted software** and it helps you to
 - Elasticsearch
 - Redis
 
-#### Installation
+### Installation
 - Yet to add..
 
-#### Acknowledgements
+### Acknowledgements
 - My parents and friends for supporting and encouraging me to work on this project.
 - This software wouldn't have been done without the [PDF.js](https://github.com/mozilla/pdf.js) library.
