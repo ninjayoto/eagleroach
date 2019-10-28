@@ -2,7 +2,7 @@
 
 ![alt text](https://raw.githubusercontent.com/eagleroach/eagleroach/master/src/static/img/readme-logo.png)
 
-Eagleroach is a self-hosted software and it helps you to  :sparkles:
+Eagleroach is a self-hosted software and it helps you to
 - View PDFs in a nice interface.
 - Organize your PDFs into multiple directories (in other words a **file tree**) structure.
 - Collaborate with our annotation tools with other users in the platform.
