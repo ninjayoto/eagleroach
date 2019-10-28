@@ -15,6 +15,10 @@ Eagleroach is a **self-hosted software** and it helps you to
 - [Mastodon](https://fosstodon.org/@eagleroach)
 - [Twitter](https://twitter.com/eagleroach)
 
+### Make a donation
+ - [Patreon](https://www.patreon.com/eagleroach)
+ - [Paypal](https://www.paypal.me/paynirmal)
+
 ### Ideal for
 - Yet to add..
 
