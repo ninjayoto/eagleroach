@@ -2,9 +2,14 @@ input[type="text"], input[type="email"], input[type="password"] {
     display: block;
     width: 400px;
     height: 40px;
+    font-family: 'Roboto', sans-serif;
     font-size: 14px;
-    color: #444444;
+    color: #666666;
     background-color: white;
     border: 5px solid #DFDCC1;
     padding: 7px 10px;
+
+    &:focus {
+        border: 5px solid #7D7B61;
+    }
 }

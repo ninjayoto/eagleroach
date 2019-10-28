@@ -6,20 +6,30 @@
 
 body {
   background: #FFFBDB;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
   font-size: 14px;
-  color: #444444;
+  color: #666666;
   padding: 15px; }
+
+a {
+  color: #666666;
+  text-decoration: none; }
+  a:hover {
+    color: #333333; }
 
 input[type="text"], input[type="email"], input[type="password"] {
   display: block;
   width: 400px;
   height: 40px;
+  font-family: 'Roboto', sans-serif;
   font-size: 14px;
-  color: #444444;
+  color: #666666;
   background-color: white;
   border: 5px solid #DFDCC1;
   padding: 7px 10px; }
+  input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focus {
+    border: 5px solid #7D7B61; }
 
 .header {
   display: -webkit-box;
@@ -51,3 +61,17 @@ input[type="text"], input[type="email"], input[type="password"] {
     height: 60px;
     background-color: rgba(0, 0, 0, 0.05);
     padding: 0 15px; }
+  .header__menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+    .header__menu a {
+      margin-right: 30px;
+      font-weight: 500; }
+      .header__menu a:last-child {
+        margin-right: 15px; }
+  .header .settings-icon:hover svg path {
+    fill: #333333; }

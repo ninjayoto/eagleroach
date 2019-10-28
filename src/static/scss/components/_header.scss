@@ -22,4 +22,28 @@
         background-color: rgba(0,0,0,0.05);
         padding: 0 15px;
     }
+
+    &__menu {
+        display: flex;
+        align-items: center;
+
+        & a {
+            margin-right: 30px;
+            font-weight: 500;
+
+            &:last-child {
+                margin-right: 15px;
+            }
+        }
+    }
+
+    & .settings-icon {
+        &:hover {
+            & svg {
+                & path {
+                    fill: #333333;
+                }
+            }
+        }
+    }
 }
