@@ -11,6 +11,7 @@ Eagleroach is a **self-hosted software** and it helps you to
 - Last but not least - Fine-grained user experience.
 
 ### Social accounts
+- [Discord](https://discord.gg/5jnPrQQ)
 - [Mastodon](https://fosstodon.org/@eagleroach)
 - [Twitter](https://twitter.com/eagleroach)
 
