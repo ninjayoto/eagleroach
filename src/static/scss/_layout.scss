@@ -21,3 +21,44 @@ a {
         color: #333333;
     }
 }
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    overflow: hidden;
+
+    &__left {
+        width: 260px;
+        height: calc(100vh - 110px);
+        margin-right: 20px;
+
+        &__header {
+            display: flex;
+            align-items: center;
+
+            & a {
+                padding: 5px;
+                background-color: rgba(0,0,0,0.1);
+                color: #666666;
+                font-weight: 500;
+                margin-right: 10px;
+
+                &.active, &:hover {
+                    color: white;
+                    background-color: rgba(0,0,0,0.6);
+                }
+
+                &:last-child {
+                    margin-right: 0;
+                }
+            }
+        }
+
+        &__main {
+            background-color: rgba(0,0,0,0.05);
+            height: 100%;
+            padding: 10px;
+        }
+    }
+}

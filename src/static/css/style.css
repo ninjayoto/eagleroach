@@ -18,6 +18,42 @@ a {
   a:hover {
     color: #333333; }
 
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-top: 20px;
+  overflow: hidden; }
+  .container__left {
+    width: 260px;
+    height: calc(100vh - 110px);
+    margin-right: 20px; }
+    .container__left__header {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center; }
+      .container__left__header a {
+        padding: 5px;
+        background-color: rgba(0, 0, 0, 0.1);
+        color: #666666;
+        font-weight: 500;
+        margin-right: 10px; }
+        .container__left__header a.active, .container__left__header a:hover {
+          color: white;
+          background-color: rgba(0, 0, 0, 0.6); }
+        .container__left__header a:last-child {
+          margin-right: 0; }
+    .container__left__main {
+      background-color: rgba(0, 0, 0, 0.05);
+      height: 100%;
+      padding: 10px; }
+
 input[type="text"], input[type="email"], input[type="password"] {
   display: block;
   width: 400px;
@@ -75,3 +111,6 @@ input[type="text"], input[type="email"], input[type="password"] {
         margin-right: 15px; }
   .header .settings-icon:hover svg path {
     fill: #333333; }
+
+.directory__header {
+  font-weight: 500; }
