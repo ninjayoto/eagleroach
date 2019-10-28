@@ -1,4 +1,4 @@
-## Eagleroach :rocket:
+## Eagleroach
 
 ![alt text](https://raw.githubusercontent.com/eagleroach/eagleroach/master/src/static/img/readme-logo.png)
 
@@ -10,10 +10,10 @@ Eagleroach is a self-hosted software and it helps you to  :sparkles:
 - Keep your PDFs private or public or share only with selected users.
 - Last but not least - Fine-grained user experience.
 
-#### Ideal for :thumbsup:
+#### Ideal for
 - Yet to add..
 
-#### Technology stack :muscle:
+#### Technology stack
 - HTML5
 - CSS3
 - Javascript with jQuery
@@ -21,9 +21,9 @@ Eagleroach is a self-hosted software and it helps you to  :sparkles:
 - Elasticsearch
 - Redis
 
-#### Installation :point_down:
+#### Installation
 - Yet to add..
 
-#### Acknowledgements :pray:
+#### Acknowledgements
 - My parents and friends for supporting and encouraging me to work on this project.
 - This software wouldn't have been done without the [PDF.js](https://github.com/mozilla/pdf.js) library.
